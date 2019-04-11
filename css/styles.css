@@ -38,14 +38,18 @@ hr {
 }
 
 a {
-color: #11999E;
-font-family: 'Montserrat', sans-serif;
-margin: 10px 20px;
-text-decoration: none;
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
 }
 
 a:hover {
   color: #EAF6F6;
+}
+
+a:-webkit-any-link {
+  cursor: pointer;
 }
 
 /*******************CLASS SELECTORS*****************/
@@ -89,16 +93,17 @@ a:hover {
 }
 
 .bottom-container {
-background-color: #66BFBF;
-padding: 50px 0 20px;
+  background-color: #66BFBF;
+  padding: 50px 0 20px;
 }
 
 .entre {
-  text-decoration: underline;
+  text-decoration: underline overline;
 }
 
 .entre:hover {
   color: #f18c8e;
+  cursor: pointer;
 }
 
 .bottom-cloud {
